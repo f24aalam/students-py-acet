@@ -1,0 +1,7 @@
+print("Operations")
+print("1. Create a student")
+print("2. Update a student")
+print("3. Delete a student")
+print("4. List all students")
+print("\n-------------------------\n")
+choice = int(input("Input your choice: "))
