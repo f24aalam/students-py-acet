@@ -1,9 +1,16 @@
+students = []
+
+
 def createStudent():
-  print("create student")
+  name = input("Enter student name: ")
+  students.append(name)
 
 
 def updateStudent():
-  print("update student")
+  name = input("Enter student name: ")
+  index = students.index(name)
+  newName = input("Enter new name: ")
+  students[index] = newName
 
 
 def deleteStudent():
@@ -11,7 +18,10 @@ def deleteStudent():
 
 
 def listAllStudent():
-  print("list all student")
+  print("\n------------------------\n")
+  print("List of all students")
+  print("\n------------------------\n")
+  print(students)
 
 
 choice = 0
