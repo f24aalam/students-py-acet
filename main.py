@@ -3,7 +3,11 @@ students = []
 
 def createStudent():
   name = input("Enter student name: ")
-  students.append(name)
+  email = input("Enter student email: ")
+
+  student = {"name": name, "email": email}
+  students.append(student)
+
   printMessage("Student created successfully")
 
 
